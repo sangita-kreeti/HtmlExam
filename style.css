@@ -15,3 +15,553 @@ html {
 body {
   font-family: Roboto;
 }
+
+.offer{
+  background-color: #ff671e;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+
+.offer span{
+  font-size: 1.1rem;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.offer strong{
+  font-size: 1.5rem;
+  color: #fff500;
+  font-weight: 800;
+}
+
+.offer a{
+  color: #fff500;
+}
+
+.nav__menus a{
+  color: #232224!important;
+}
+
+.nav__menus a:hover{
+  color: #ff671e!important;
+}
+
+.nav__menus .active{
+  color: #ff671e!important;
+}
+
+.nav__register li{
+  list-style: none;
+}
+
+.nav__register a{
+  text-decoration: none;
+  font-size: 1.1rem;  
+  color: #232224;
+}
+
+.nav__register__signin{
+  border-right:1px solid #d0d7e1;
+  padding-right:1.5rem;
+}
+
+.navcontacts__number{
+  font-size: 1.5rem!important;
+  font-weight: 800;
+}
+
+.navcontacts ul{
+  margin-left: 1.3rem;
+  margin-bottom: 0rem;
+  list-style: none;
+}
+
+.navcontacts i{
+  font-size: 1.7rem;
+  color: #ff671e;
+  margin-right:0.4rem;
+}
+
+.navcontacts a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #232224;
+}
+
+
+
+.category-offer-section{
+  display: flex;
+  margin-top: 2rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding-left: 0px!important;
+  padding-right: 0rem!important;
+  
+}
+
+.category-offer-section aside{
+  width:20%;
+}
+
+.category-offer-section__categories__heading{
+  font-size: 1.5rem;
+  background-color:#ff671e;
+  padding: 0.7rem;
+  color:#ffffff;
+  font-weight: 800;
+  cursor: pointer;
+  
+}
+
+.list-group-item{
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.item__a{
+  text-decoration: none;
+  color: black;
+}
+
+.item__a i{
+  color:#FF671E;
+  font-size: 1.6rem;
+}
+
+
+
+.category-offer-section .input-group{
+  border: 1px solid #FF671E;
+  border-radius: 5px;
+  padding:0.6rem;
+}
+
+.category-offer-section .input-group i{
+  color:#7a8187;
+}
+
+.category-offer-section__categories__item__icon{
+  width: 32px;
+}
+
+.category-offer-section__categories__item-list{
+  width: 100%;
+}
+
+.category-offer-section__offers{
+  flex-grow: 5;
+  width: min-content;
+}
+
+.category-offer-section__offers__dots{
+  height: 10px !important;
+  width: 10px !important;
+  
+}
+
+.carausal-inner--height{
+  height: 32rem;
+}
+
+.carousel-item__content{
+  display: flex;
+  height: 32rem;
+}
+.common_flex{
+  flex: 1 1 250px;
+}
+
+.carousel-item__content{
+  background-image: url(./assets/banner1.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  
+}
+
+.carousel-item__content__img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item__content__img img{
+  width: 15rem;
+}
+
+.carousel-item__heading__section{
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  color: #ffffff;
+}
+
+.carousel-item__heading__section__sub-heading{
+  margin-top: 4rem;
+
+}
+
+.carousel-item__heading__section__main-heading{
+  width: 70%;
+  color:black;
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.top-banner {
+  background-image: url(./assets/banner2.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;  
+  width:38%;
+}
+
+.top-banner-text {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+
+.top-banner-heading {
+  color: white;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.top-banner .btn{
+  background-color: #FF671E;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  width:40%
+  
+}
+
+.header-cards .card{
+  width: 12rem ;
+  border-radius: 0.5rem;
+ }
+ .header-cards .card span{
+  background-color: #fe661d;
+  display: flex;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 1rem;
+  height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+ }
+ .header_cards .card img{
+   border-radius: 0.5rem 0.5rem 0rem 0rem;
+ }
+ 
+ 
+ .bikes-cards-headding{
+   font-size: 2rem;
+   font-weight: 600;
+ }
+ 
+ .bikeitem span{
+   font-size: 1rem;
+   margin: 0.5rem 0;
+ }
+ .bikeitem p{
+   font-size: 1rem;
+ }
+ .bikeitem strong{
+   font-size: 1.2rem;
+   color: #fe661d;
+ }
+ 
+ .bike-image-card{
+   position: relative;
+ }
+ .bike-image-card img{
+   border-radius: 0.3rem;
+ }
+ .bike-image-card-content{
+   position: absolute;
+   padding-left: 2rem;
+   padding-top: 3rem;
+   top: 0;
+ }
+ .bike-image-card-content span{
+ color: #fe661d;
+ font-weight: 600;
+ font-size: 1.1rem;
+ }
+ .bike-image-card-content h2{
+ color: white;
+ margin-top: 0.5rem;
+ font-weight:900;
+ font-size: 1.6rem;
+ }
+
+.mid-banner {
+  background-image: url(./assets/mid-banner.webp);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.mid-banner-content{
+  width: 450px;
+  text-align: center;
+}
+
+.mid-banner-text {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+
+.mid-banner-heading {
+  color: white;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-family: Mulish-Black;
+  font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.mid-banner .btn{
+  background-color: #FF671E;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 8px;
+}
+
+
+.news-section{
+  margin-top: 1rem;
+}
+
+.news-section h2{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.news-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.card-box img{
+  width: 420px;
+  height: 250px;
+}
+.card-text{
+  background-color: white;
+  position: relative;
+  bottom: 4rem;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+}
+.news-heading{
+  color: #FF671E;
+  font-weight: bold;
+}
+.card-text h3{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.author-name{
+  font-weight: bold;
+}
+
+.footer-top {
+  background-color: #373e48;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #c95d2c;
+  font-weight: 600;
+}
+
+.footer-col-heading {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.social-icon {
+  color: #7a8187;
+}
+
+.social-icon:hover {
+  color: #c95d2c;
+}
+
+.form-control {
+  border: none;
+}
+
+.input-group-text {
+  background-color: #ff671e;
+  color: #fff;
+  font-weight: 500;
+  border-color: #ff671e;
+}
+
+.footer-signup-text {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.footer-copy {
+  background-color: #2a313b;
+  color: #7a8187;
+  font-size: 0.8rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 1400px){
+  .news-card {
+    gap: 1rem;
+  }
+  .card-box img{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1299px) {
+  .bikeitem{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+@media (max-width: 1200px){
+  .news-card {
+    gap: 1rem;
+  }
+  .card-box img{
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px){
+  .card-box img{
+    width: 310px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 1023px){
+  .news-card {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .card-box{
+    width: 45%;
+  }
+  .card-box img{
+    width: 100%;
+  }
+  .card-text{
+    width: 70%;
+    right: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 991.5px) {
+  .top-banner{
+    width: 95%!important;
+    padding: 3rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+
+  } 
+}
+
+@media (max-width: 768px) {
+  .navcontacts{
+    flex-wrap: wrap!important;
+  }
+
+  .category-offer-section__offers section{
+    flex-wrap: wrap!important;
+  }
+
+  .card-box{
+    width: 100%;
+  }
+
+  .navcontacts section{
+    margin-top: 1rem!important;
+  }
+  
+}
+
+@media only screen and (max-width: 576px) {
+  .bike-image-card-content{
+    padding-left: 2rem;
+    padding-top: 3rem;
+  }
+  .bike-image-card-content span{
+
+  font-size: 1.5rem;
+  }
+  .bike-image-card-content h2{
+
+  font-size: 2.2rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 441.5px) {
+  .carousel-item__content__img img{
+    width: 60%;
+  }
+  .top-banner{
+    width: 92%!important;
+
+  } 
+  .mid-banner-content{
+    width: 300px;
+  }
+
+  .mid-banner-content button{
+    width: 1rem;
+  }
+
+  .header-cards{
+    justify-content: center!important;
+  }
+}
+
+@media only screen and (max-width: 340.5px) {
+  .navcontacts ul{
+    flex-wrap: wrap;
+  }
+  
+} 
+ 
